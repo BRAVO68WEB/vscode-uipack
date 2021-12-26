@@ -1,0 +1,53 @@
+{
+  "name": "vscode-uipack",
+  "displayName": "Bravo's UI pack",
+  "description": "VSCode UI Pack created by Bravo68web",
+  "version": "1.0.0",
+  "preview": true,
+  "private": false,
+  "publisher": "Bravo68web",
+  "author": {
+    "name": "Bravo68web",
+    "email": "me@bravo68web.me",
+    "url": "http://bravo68web.me"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "Bravo68web.propstar",
+    "Bravo68web.icyicons"
+  ],
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript",
+    "extension",
+    "extension pack"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#333333",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish:ext": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^1.77.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BRAVO68WEB/vscode-uipack/issues/new",
+    "email": "me@bravo68web.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BRAVO68WEB/vscode-uipack.git"
+  },
+  "homepage": "https://github.com/BRAVO68WEB/vscode-uipack"
+}
